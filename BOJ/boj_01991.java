@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class boj_1991 {
+public class boj_01991 {
 
     private static node[] tree = new node[27];
     private static final int none = '.' - 'A';

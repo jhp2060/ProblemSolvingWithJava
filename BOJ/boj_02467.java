@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class boj_2467 {
+public class boj_02467 {
 
     private static int n;
     private static int liquids[];

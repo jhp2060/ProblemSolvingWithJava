@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class boj_1043 {
+public class boj_01043 {
     static int n, m;
     static int[] root;
     static int[] rank;

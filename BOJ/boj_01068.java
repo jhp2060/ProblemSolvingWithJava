@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class boj_1068 {
+public class boj_01068 {
     private static final int MAX = 50 + 1;
     private static int n;
     private static int root;

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class boj_1167 {
+public class boj_01167 {
     private static int max = 0;
     private static int start = 0;
 

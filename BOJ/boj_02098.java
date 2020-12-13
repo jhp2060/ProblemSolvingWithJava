@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class boj_2098 {
+public class boj_02098 {
 
     private static int N;
     private static int visitedAll;

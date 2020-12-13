@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class boj_1018 {
+public class boj_01018 {
 
     private static final char[][] black88 = {
             {'B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'},

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class boj_1629 {
+public class boj_01629 {
 
     private static long a;
     private static long b;

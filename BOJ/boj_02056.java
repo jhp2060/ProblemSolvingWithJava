@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class boj_2056 {
+public class boj_02056 {
 
     private final static int MAX = 10000 + 1;
 
