@@ -32,7 +32,7 @@ public class boj_15998 {
                 return;
             }
         }
-        System.out.print(m > 0 ? m : 1);
+        System.out.print(m > 0 ? m : 1); // m == 0이면 입금만 한 상황
     }
 
     static long stol(String s) { return Long.parseLong(s);}
