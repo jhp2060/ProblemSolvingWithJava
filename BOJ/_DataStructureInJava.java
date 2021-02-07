@@ -6,6 +6,9 @@ public class _DataStructureInJava {
         LinkedList<Integer> q = new LinkedList<>();
         int n;
 
+        // stack : push pop
+        // queue : add pop
+
         // 인덱스 0으로 삽입
         q.push(1);
         q.push(2);
