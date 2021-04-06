@@ -86,6 +86,7 @@ public class boj_15683 {
             while (nr >= 0 && nr < n && nc >= 0 && nc < m) {
                 if (grid[nr][nc] == WALL) break;
                 if (grid[nr][nc] == BLANK || grid[nr][nc] >= SHADE)
+                    // 단순히 감시의 유무만 확인하지 말고, 몇 번의 감시가 누적되는지 확인!!
                     grid[nr][nc] += toDraw;
                 nr += dir[0];
                 nc += dir[1];
