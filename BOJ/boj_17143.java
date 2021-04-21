@@ -57,9 +57,9 @@ public class boj_17143 {
                 // with 'n' spaces, we can get '2n - 1' states
                 if (now.d <= DOWN) {   // move upward or downward
                     int nr = (r - 1) * 2;
-                    int ni = (i + now.s) % nr;
-                    int nd = DOWN;
+                    int ni, nd = DOWN;
                     if (now.d == UP) ni = ((2 * r - i) + now.s) % nr;
+                    else ni = (i + now.s) % nr;
                     if (ni >= r) {
                         nd = UP;
                         if (ni > r) ni = 2 * r - ni;
@@ -68,9 +68,9 @@ public class boj_17143 {
                         tmp[ni][j] = new Shark(now.s, nd, now.z);
                 } else {
                     int nc = (c - 1) * 2;
-                    int nj = (j + now.s) % nc;
-                    int nd = RIGHT;
+                    int nj, nd = RIGHT;
                     if (now.d == LEFT) nj = ((2 * c - j) + now.s) % nc;
+                    else nj = (j + now.s) % nc;
                     if (nj >= c) {
                         nd = LEFT;
                         if (nj > c) nj = 2 * c - nj;
