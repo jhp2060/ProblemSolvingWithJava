@@ -60,6 +60,7 @@ public class boj_17143 {
                     int ni, nd = DOWN;
                     if (now.d == UP) ni = ((2 * r - i) + now.s) % nr;
                     else ni = (i + now.s) % nr;
+                    if (ni == 0) ni += nr;
                     if (ni >= r) {
                         nd = UP;
                         if (ni > r) ni = 2 * r - ni;
@@ -71,6 +72,7 @@ public class boj_17143 {
                     int nj, nd = RIGHT;
                     if (now.d == LEFT) nj = ((2 * c - j) + now.s) % nc;
                     else nj = (j + now.s) % nc;
+                    if (nj == 0) nj += nc;
                     if (nj >= c) {
                         nd = LEFT;
                         if (nj > c) nj = 2 * c - nj;
